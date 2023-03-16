@@ -1,6 +1,6 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"CVPR":
+  url: https://cvpr2023.thecvf.com/
 
-"PhysRev":
+"ICCV":
   url: https://journals.aps.org/
+  color: "#00369f"
