@@ -24,6 +24,7 @@ $pink-color-light:    #ffdddd !default;
 $magenta-color:       #ff00ff !default;
 $amaranth-pink:       #f4a7bb !default;
 $yellow-color:        #efcc00 !default;
+$button-blue:         #1DA1F2 !default;
 
 $grey-color:          #828282 !default;
 $grey-color-light:    lighten($grey-color, 40%);
@@ -37,5 +38,5 @@ $black-color: #000000 !default;
 // Theme colors
 
 // rgba($purple-color, 0.05);
-$code-bg-color-light:     rgba($blue-color, 0.05); 
-$code-bg-color-dark:      $amaranth-pink; // #2c3237 !default;
+$code-bg-color-light:     rgba($button-blue, 0.05); 
+$code-bg-color-dark:      rgba($amaranth-pink, 0.05); // #2c3237 !default;
