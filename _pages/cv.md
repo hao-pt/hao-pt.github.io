@@ -2,7 +2,10 @@
 layout: cv
 permalink: /cv/
 title: cv
-nav: false
+description: "Hey there! My CV is available for download in the attachment provided. :blush:"
+nav: true
 nav_order: 4
-cv_pdf: example_pdf.pdf
+cv_pdf: HaoPhung_CV.pdf
+date: 2023-03-18
 ---
+

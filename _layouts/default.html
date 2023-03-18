@@ -19,16 +19,21 @@
     <div class="container mt-5">
       {{ content }}
       <center>
-        <a href="javascript:toggleblock('notice')" style="text-align:center;font-size:70%;color:#808080">▶ hao-pt.github.io's clustrmaps 🌎</a>.
+        <!-- <a href="#" onclick="toggle_visibility('notice');" style="text-align:center;font-size:80%;color:#808080">▶ hao-pt.github.io's clustrmaps 🌎</a> -->
+        <script src="https://kit.fontawesome.com/0c7c27ff53.js" crossorigin="anonymous"></script>
+        <a href="#" onclick="toggle_visibility('notice');toggle_chevron('toggle');" style="text-align:center;font-size:80%;color:#989898">
+          <i id="toggle" class="fa fa-chevron-circle-right"></i>
+          hao-pt.github.io's clustrmaps 🌎
+        </a>
         <div id="notice" style="display:none; color:#dedede; font-size:.5em;">
           <p>
-            <a href='https://clustrmaps.com/site/1bkav'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.js?d=SMzmCrtLul4PeBgV-hxmBaV2BV1GQQyxAWrtBobFAe8&cl=ffffff&w=a'/></a>
-            <!-- <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=SMzmCrtLul4PeBgV-hxmBaV2BV1GQQyxAWrtBobFAe8&cl=ffffff&w=a"></script> -->
+            <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=SMzmCrtLul4PeBgV-hxmBaV2BV1GQQyxAWrtBobFAe8&cl=ffffff&w=a"></script>
           </p>
         </div>
       </center>
-
     </div>
+
+  </div>
 
     <!-- Footer -->
     {%- include footer.html %}

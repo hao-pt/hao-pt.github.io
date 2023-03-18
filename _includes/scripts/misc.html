@@ -12,3 +12,32 @@
 
   <!-- Load Common JS -->
   <script defer src="{{ '/assets/js/common.js' | relative_url }}"></script>
+
+<!-- Toggle element -->
+  <script type="text/javascript">
+    function toggle_visibility(id) {
+        var e = document.getElementById(id);
+        if(e.style.display == 'block')
+          e.style.display = 'none';
+        else
+          e.style.display = 'block';
+    }
+  </script>
+
+<!-- Toggle chevron icon from right to down on click -->
+<script type="text/javascript">
+    function toggle_chevron(id) {
+        const a = 'fa fa-chevron-circle-right'
+        const b = 'fa fa-chevron-circle-down'
+        const e = document.getElementById(id)
+        toggle.onclick = () => {
+          e.classList.toggle(a)
+          e.classList.toggle(b)
+        }
+        // $("button").click(function() {
+        //     e.toggleClass("fa-chevron-circle-right fa-chevron-circle-down")
+        // })
+    }
+</script>
+
+
