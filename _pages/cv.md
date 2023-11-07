@@ -6,5 +6,5 @@ description: "Hey there! My CV is available for download in the attachment provi
 nav: true
 nav_order: 4
 cv_pdf: HaoPhung_CV.pdf
-date: 2023-07-10
+date: 2023-11-07
 ---
