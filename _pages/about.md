@@ -2,22 +2,24 @@
 layout: about
 title: about
 permalink: /
+pronouce: How Fung
 subtitle: AI Research Resident @  <a href='https://www.vinai.io/'>VinAI</a>, Vietnam
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
-#   address: >
-#     <p>tienhaophung (at) gmail (dot) com</p>
-
-# <p>555 your office number</p>
-# <p>123 your address street</p>
-# <p>Your City, State 12345</p>
+  address: >
+    <p>"How Fung" (he/his)</p>
+    <p>tienhaophung@gmail.com</p>
+    <p>Ho Chi Minh City, Vietnam</p>
+  # <p>555 your office number</p>
+  # <p>123 your address street</p>
+  # <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
@@ -33,4 +35,4 @@ Greetings! It is a great pleasure to welcome you here. I am an AI Research Resid
 My primary research interests lie in the field of Computer Vision, with a specific focus on deep generative models.
 Currently, I am actively engaged in improving the efficiency and controllability of diffusion models, particularly in their application to conditional image generation.
 
-Email: tienhaophung (at) gmail (dot) com
+<!-- **Email**: tienhaophung (at) gmail (dot) com -->

@@ -18,6 +18,15 @@
     <!-- Content -->
     <div class="container mt-5">
       {{ content }}
+      <div class="social">
+            <div class="contact-icons">
+            {% include social.html %}
+            </div>
+
+            <div class="contact-note">
+            {{ site.contact_note }}
+            </div>
+      </div>
       <center>
         <!-- <a href="#" onclick="toggle_visibility('notice');" style="text-align:center;font-size:80%;color:#808080">▶ hao-pt.github.io's clustrmaps 🌎</a> -->
         <script src="https://kit.fontawesome.com/0c7c27ff53.js" crossorigin="anonymous"></script>
@@ -33,8 +42,6 @@
         </div>
       </center>
     </div>
-
-  </div>
 
     <!-- Footer -->
     {%- include footer.html %}
