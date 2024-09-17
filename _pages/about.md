@@ -27,7 +27,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-Greetings! I am a first year PhD student in Computer Science at Cornell Tech, NYC. Previously, I was an AI Research Resident at <a href="https://www.vinai.io/">VinAI</a>, where I was fortunate to work under the advise of Dr. <a href="https://scholar.google.com/citations?user=FYZ5ODQAAAAJ&hl=en/">Anh Tran</a>. Before that, I received my Bachelor of Computer Science from <a href="https://www.hcmus.edu.vn/">Ho Chi Minh City University of Science</a> (HCMUS) in Vietnam.
+Greetings! I am a first year PhD student in Computer Science at Cornell Tech, NYC. Previously, I was an AI Research Resident at <a href="https://www.vinai.io/">VinAI</a>, where I was fortunate to work under the mentorship of Dr. <a href="https://scholar.google.com/citations?user=FYZ5ODQAAAAJ&hl=en/">Anh Tran</a>. Before that, I received my Bachelor of Computer Science from <a href="https://www.hcmus.edu.vn/">Ho Chi Minh City University of Science</a> (HCMUS) in Vietnam.
 
 <!-- He earned an outstanding thesis award under the supervision of Dr. Ngoc Quoc Ly - the Head of the Department of Computer Vision and Cognitive Cybernetics at HCMUS.  -->
 
