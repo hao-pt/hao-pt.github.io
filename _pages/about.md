@@ -29,8 +29,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 Greetings! I am a first year PhD student in Computer Science at Cornell Tech, NYC. Previously, I was an AI Research Resident at <a href="https://www.vinai.io/">VinAI</a>, where I was fortunate to work under the mentorship of Dr. <a href="https://scholar.google.com/citations?user=FYZ5ODQAAAAJ&hl=en/">Anh Tran</a>. Before that, I received my Bachelor of Computer Science from <a href="https://www.hcmus.edu.vn/">Ho Chi Minh City University of Science</a> (HCMUS) in Vietnam.
 
-<!-- He earned an outstanding thesis award under the supervision of Dr. Ngoc Quoc Ly - the Head of the Department of Computer Vision and Cognitive Cybernetics at HCMUS.  -->
-
 My primary research interests focus on generative models, with a particular emphasis on diffusion models.
 
 <!-- I am currently interested in studying discrete diffusion frameworks and their applications to text, images, and beyond. -->
