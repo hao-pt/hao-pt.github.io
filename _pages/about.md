@@ -10,7 +10,6 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   address: >
-    <p>tienhaophung@gmail.com</p>
     <p>Manhattan, NYC</p>
   # <p>555 your office number</p>
   # <p>123 your address street</p>
@@ -31,6 +30,8 @@ Greetings! I am a first year PhD student in Computer Science at Cornell Tech, NY
 
 My primary research interests focus on generative models, with a particular emphasis on diffusion models.
 
-<!-- I am currently interested in studying discrete diffusion frameworks and their applications to text, images, and beyond. -->
+<!-- <p style="color: #32CD32">
+Note: I’m currently looking for a summer internship in 2025. Feel free to email me if there’s a good fit. Best regards!
+</p> -->
 
 <!-- **Email**: tienhaophung (at) gmail (dot) com -->
