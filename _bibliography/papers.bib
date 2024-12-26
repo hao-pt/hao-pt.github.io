@@ -8,10 +8,9 @@
   year        = {2025},
   selected    = {true},
   published   = {true},
-  arxiv       = {},
-  code        = {},
-  abstract    = {Flow matching has emerged as a promising framework for training generative models, demonstrating impressive empirical performance while offering relative ease of training compared to diffusion-based models. However, this method still faces challenges which is the need for numerous function evaluations in sampling process. To address these limitations, we introduce a self-corrected flow distillation method that integrates consistency models and adversarial training within the flow-matching framework. Our approach can produce consistent high-quality images in both few-step and one-step sampling. Our experiments across various datasets validate the effectiveness of our method, yielding superior results both quantitatively and qualitatively.},
-  page        = {},
+  arxiv       = {2412.16906},
+  code        = {https://github.com/VinAIResearch/SCFlow},
+  abstract    = {Flow matching has emerged as a promising framework for training generative models, demonstrating impressive empirical performance while offering relative ease of training compared to diffusion-based models. However, this method still requires numerous function evaluations in the sampling process. To address these limitations, we introduce a self-corrected flow distillation method that effectively integrates consistency models and adversarial training within the flow-matching framework. This work is a pioneer in achieving consistent generation quality in both few-step and one-step sampling. Our extensive experiments validate the effectiveness of our method, yielding superior results both quantitatively and qualitatively on CelebA-HQ and zero-shot benchmarks on the COCO dataset. Our implementation is released at https://github.com/VinAIResearch/SCFlow.},
   bibtex_show = {true},
   preview     = {scflow.gif}
 }
@@ -43,7 +42,7 @@
   published   = {false},
   page        = {https://vinairesearch.github.io/LFM/},
   abstract    = {Flow matching is a recent framework to train generative models that exhibits impressive empirical performance while being relatively easier to train compared with diffusion-based models. Despite its advantageous properties, prior methods still face the challenges of expensive computing and a large number of function evaluations of off-the-shelf solvers in the pixel space. Furthermore, although latent-based generative methods have shown great success in recent years, this particular model type remains underexplored in this area. In this work, we propose to apply flow matching in the latent spaces of pretrained autoencoders, which offers improved computational efficiency and scalability for high-resolution image synthesis. This enables flow-matching training on constrained computational resources while maintaining their quality and flexibility. Additionally, our work stands as a pioneering contribution in the integration of various conditions into flow matching for conditional generation tasks, including label-conditioned image generation, image inpainting, and semantic-to-image generation. Through extensive experiments, our approach demonstrates its effectiveness in both quantitative and qualitative results on various datasets, such as CelebA-HQ, FFHQ, LSUN Church & Bedroom, and ImageNet. We also provide a theoretical control of the Wasserstein-2 distance between the reconstructed latent flow distribution and true data distribution, showing it is upper-bounded by the latent flow matching objective.},
-  preview     = {lfm_archi.svg},
+  preview     = {lfm_archi.png},
   code        = {https://github.com/VinAIResearch/LFM.git}
 }
 
