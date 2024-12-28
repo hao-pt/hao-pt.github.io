@@ -1,5 +1,20 @@
 ---
 ---
+@article{schiff2024discreteguidance,
+    bibtex_show = {true},
+    title={Simple Guidance Mechanisms for Discrete Diffusion Models},
+    author={Schiff, Yair and Sahoo, Subham Sekhar and Phung, Hao and Wang, Guanghan and Boshar, Sam and Dalla-torre, Hugo and de Almeida, Bernardo P and Rush, Alexander and Pierrot, Thomas and Kuleshov, Volodymyr},
+    journal={arXiv preprint arXiv:2412.10193},
+    arxiv       = {2412.10193},
+    year        = {2024},
+    selected    = {false},
+    published   = {false},
+    page        = {https://discrete-diffusion-guidance.github.io/},
+    abstract    = {Diffusion models for continuous data gained widespread adoption owing to their high quality generation and control mechanisms. However, controllable diffusion on discrete data faces challenges given that continuous guidance methods do not directly apply to discrete diffusion. Here, we provide a straightforward derivation of classifier-free and classifier-based guidance for discrete diffusion, as well as a new class of diffusion models that leverage uniform noise and that are more guidable because they can continuously edit their outputs. We improve the quality of these models with a novel continuous-time variational lower bound that yields state-of-the-art performance, especially in settings involving guidance or fast generation. Empirically, we demonstrate that our guidance mechanisms combined with uniform noise diffusion improve controllable generation relative to autoregressive and diffusion baselines on several discrete data domains, including genomic sequences, small molecule design, and discretized image generation.},
+    preview     = {discrete_guidance.gif},
+    code        = {https://github.com/kuleshov-group/discrete-diffusion-guidance.git}
+}
+
 @inproceedings{dao2024scflow,
   abbr        = {AAAI},
   title       = {Self-Corrected Flow Distillation for Consistent One-Step and Few-Step Image Generation},
@@ -26,7 +41,7 @@
   arxiv       = {2411.04168},
   code        = {https://github.com/VinAIResearch/DiMSUM.git},
   abstract    = {We introduce a novel state-space architecture for diffusion models, effectively harnessing spatial and frequency information to enhance the inductive bias towards local features in input images for image generation tasks. While state-space networks, including Mamba, a revolutionary advancement in recurrent neural networks, typically scan input sequences from left to right, they face difficulties in designing effective scanning strategies, especially in the processing of image data. Our method demonstrates that integrating wavelet transformation into Mamba enhances the local structure awareness of visual inputs and better captures long-range relations of frequencies by disentangling them into wavelet subbands, representing both low- and high-frequency components. These wavelet-based outputs are then processed and seamlessly fused with the original Mamba outputs through a cross-attention fusion layer, combining both spatial and frequency information to optimize the order awareness of state-space models which is essential for the details and overall quality of image generation. Besides, we introduce a globally-shared transformer to supercharge the performance of Mamba, harnessing its exceptional power to capture global relationships. Through extensive experiments on standard benchmarks, our method demonstrates superior results compared to DiT and DIFFUSSM, achieving faster training convergence and delivering high-quality outputs. The codes and pretrained models are released at https://github.com/VinAIResearch/DiMSUM.},
-  page        = {https://hao-pt.github.io/dimsum/},
+  page        = {https://vinairesearch.github.io/DiMSUM/},
   bibtex_show = {true},
   preview     = {dimsum.gif}
 }
