@@ -26,9 +26,9 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-Greetings! I am a first year PhD student in Computer Science at Cornell Tech, NYC. Previously, I was an AI Research Resident at <a href="https://www.vinai.io/">VinAI</a>, where I was fortunate to work under the mentorship of Dr. <a href="https://scholar.google.com/citations?user=FYZ5ODQAAAAJ&hl=en/">Anh Tran</a>. Before that, I received my Bachelor of Computer Science from <a href="https://www.hcmus.edu.vn/">Ho Chi Minh City University of Science</a> (HCMUS) in Vietnam.
+Greetings! I am a PhD student in Computer Science at Cornell Tech, NYC, advised by <a href='https://www.hadarelor.com/'>Hadar Averbuch-Elor</a>. Previously, I was an AI Research Resident at <a href="https://www.vinai.io/">VinAI</a>, where I was fortunate to work under the mentorship of Dr. <a href="https://scholar.google.com/citations?user=FYZ5ODQAAAAJ&hl=en/">Anh Tran</a>. Before that, I received my Bachelor of Computer Science from <a href="https://www.hcmus.edu.vn/">Ho Chi Minh City University of Science</a> (HCMUS) in Vietnam.
 
-My primary research interests focus on generative models, with a particular emphasis on diffusion models.
+My primary research interests center on generative models in vision and language domains, with an increasing focus on multimodal systems.
 
 <!-- <p style="color: #32CD32">
 Note: I’m currently looking for a summer internship in 2025. Feel free to email me if there’s a good fit. Best regards!
