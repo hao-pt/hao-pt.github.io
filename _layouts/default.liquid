@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+  <!-- Head -->
+  <head>
+    {% if page.redirect %}
+      {% if page.redirect == true %}
+        {% assign redirect = site.baseurl | append: '/' %}
+      {% elsif page.redirect contains '://' %}
+        {% assign redirect = page.redirect %}
+      {% else %}
+        {% assign redirect = page.redirect | relative_url %}
+      {% endif %}
+      <meta http-equiv="refresh" content="3; url={{ redirect }}">
+    {% endif %}
+    {% include head.liquid %}
+  </head>
+
+  <!-- Body -->
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    <!-- Header -->
+    {% include header.liquid %}
+
+    <!-- Content -->
+    <div class="container mt-5" role="main">
+      {% if page.toc and page.toc.sidebar %}
+        {% if page.toc.sidebar == 'right' %}
+          <div class="row">
+            <!-- main content area -->
+            <div class="col-sm-9">{{ content }}</div>
+            <!-- sidebar, which will move to the top on a small screen -->
+            <div class="col-sm-3">
+              <nav id="toc-sidebar" class="sticky-top"></nav>
+            </div>
+          </div>
+        {% else %}
+          <div class="row">
+            <!-- sidebar, which will move to the top on a small screen -->
+            <div class="col-sm-3">
+              <nav id="toc-sidebar" class="sticky-top"></nav>
+            </div>
+            <!-- main content area -->
+            <div class="col-sm-9">{{ content }}</div>
+          </div>
+        {% endif %}
+      {% else %}
+        {{ content }}
+      {% endif %}
+    </div>
+
+
+    <div class="social" style="text-align: center; margin-top: 5px;">
+      <div class="contact-icons">{% social_links %}</div>
+      <div class="contact-note" style="font-size: 0.8rem; margin-top: 2px; color: #989898;">
+        {{ site.contact_note }}
+      </div>
+    </div>
+
+
+    <center class="mb-5">
+      <script src="https://kit.fontawesome.com/0c7c27ff53.js" crossorigin="anonymous"></script>
+      
+      <script>
+        function toggle_visibility(id) {
+          var e = document.getElementById(id);
+          // Changed to toggle height and opacity instead of display
+          if (e.style.height === '0px' || e.style.height === '') {
+            e.style.height = 'auto';
+            e.style.opacity = '1';
+          } else {
+            e.style.height = '0px';
+            e.style.opacity = '0';
+          }
+        }
+        function toggle_chevron(id) {
+          var e = document.getElementById(id);
+          if (e.classList.contains('fa-chevron-circle-right')) {
+            e.classList.remove('fa-chevron-circle-right');
+            e.classList.add('fa-chevron-circle-down');
+          } else {
+            e.classList.remove('fa-chevron-circle-down');
+            e.classList.add('fa-chevron-circle-right');
+          }
+        }
+      </script>
+
+      <a href="javascript:void(0);" onclick="toggle_visibility('notice');toggle_chevron('toggle');" style="text-align:center;font-size:80%;color:#989898">
+        <i id="toggle" class="fa-chevron-circle-right fas"></i>
+        hao-pt.github.io's clustrmaps 🌎
+      </a>
+      
+      <div id="notice" style="height:0px; overflow:hidden; opacity:0; transition: opacity 0.4s; color:#dedede; font-size:.5em;">
+          <p style="margin-top:10px;">
+            <script type='text/javascript' id='clustrmaps' src='https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=n&d=SMzmCrtLul4PeBgV-hxmBaV2BV1GQQyxAWrtBobFAe8'></script>
+          </p>
+      </div>
+    </center>
+
+    <!-- Footer -->
+    {% include footer.liquid %}
+
+    <!-- JavaScripts -->
+    {% include scripts.liquid %}
+  </body>
+</html>

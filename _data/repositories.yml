@@ -1,6 +1,8 @@
 github_users:
   - hao-pt
 
+repo_description_lines_max: 2
+
 github_repos:
   - VinAIResearch/WaveDiff
   - VinAIResearch/Anti-DreamBooth

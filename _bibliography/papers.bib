@@ -1,18 +1,31 @@
 ---
 ---
+@article{phung2026raster2seq,
+  bibtex_show = {true},
+  title       = {Raster2Seq: A Unified Framework for Image-to-Sequence Generation},
+  author      = {Phung, Hao and Averbuch-Elor, Hadar},
+  arxiv       = {2602.09016},
+  year        = {2026},
+  selected    = {false},
+  published   = {false},
+  abstract    = {Reconstructing a structured vector-graphics representation from a rasterized floorplan image is typically an important prerequisite for computational tasks involving floorplans such as automated understanding or CAD workflows. However, existing techniques struggle in faithfully generating the structure and semantics conveyed by complex floorplans that depict large indoor spaces with many rooms and a varying numbers of polygon corners. To this end, we propose Raster2Seq, framing floorplan reconstruction as a sequence-to-sequence task in which floorplan elements--such as rooms, windows, and doors--are represented as labeled polygon sequences that jointly encode geometry and semantics. Our approach introduces an autoregressive decoder that learns to predict the next corner conditioned on image features and previously generated corners using guidance from learnable anchors. These anchors represent spatial coordinates in image space, hence allowing for effectively directing the attention mechanism to focus on informative image regions. By embracing the autoregressive mechanism, our method offers flexibility in the output format, enabling for efficiently handling complex floorplans with numerous rooms and diverse polygon structures. Our method achieves state-of-the-art performance on standard benchmarks such as Structure3D, CubiCasa5K, and Raster2Graph, while also demonstrating strong generalization to more challenging datasets like WAFFLE, which contain diverse room structures and complex geometric variations.},
+  preview     = {raster2seq.png},
+  code        = {https://anonymous.4open.science/r/Raster2Seq-BE73/},
+}
+
 @inproceedings{liu2026hyperct,
     abbr        = {MIDL},
     booktitle   = {Medical Imaging with Deep Learning},
     title       = {Hyper{CT}: Low-Rank Hypernet for Unified Chest {CT} Analysis},
-    author      = {Liu, Fengbei and Kwak, Sunwoo and Nizam, Nusrat Binta and Phung, Hao and Richter, Ilan and Uriel, Nir and Averbuch-Elor, Hadar and Estrin, Deborah and Sabuncu, Mert R.}},
-    arxiv       = {},
+    author      = {Liu, Fengbei and Kwak, Sunwoo and Phung, Hao and Nizam, Nusrat Binta and Richter, Ilan and Uriel, Nir and Averbuch-Elor, Hadar and Estrin, Deborah and Sabuncu, Mert R.},
     year        = {2026},
     selected    = {false},
     published   = {true},
     abstract    = {Non-contrast chest CTs offer a rich opportunity for both conventional pulmonary and opportunistic extra-pulmonary screening. While Multi-Task Learning (MTL) can unify these diverse tasks, standard hard-parameter sharing approaches are often suboptimal for modeling distinct pathologies. We propose HyperCT, a framework that dynamically adapts a Vision Transformer backbone via a Hypernetwork. To ensure computational efficiency, we integrate Low-Rank Adaptation (LoRA), allowing the model to regress task-specific low-rank weight updates rather than full parameters. Validated on a large-scale dataset of radiological and cardiological tasks, HyperCT outperforms various strong baselines, offering a unified, parameter-efficient solution for holistic patient assessment. Our code will be made publicly available.},
-    preview     = {},
+    pdf         = {https://openreview.net/forum?id=n3VLj8LFz3&referrer=%5Bthe%20profile%20of%20Hadar%20Averbuch-Elor%5D(%2Fprofile%3Fid%3D~Hadar_Averbuch-Elor2)},
     code        = {https://github.com/lfb-1/HyperCT},
-    bibtex_show = {true},
+    preview     = {hyperct.png},
+    bibtex_show = {true}
 }
 
 @inproceedings{arriola2025e2d2,
