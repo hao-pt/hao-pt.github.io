@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-20'
+  last_updated: '2026-03-02'
 papers:
   KxSdvGoAAAAJ:-f6ydRqryjwC:
     citations: 7
@@ -26,15 +26,15 @@ papers:
     title: Simple and controllable uniform discrete diffusion language models
     year: '2025'
   KxSdvGoAAAAJ:bEWYMUwI8FkC:
-    citations: 131
+    citations: 136
     title: Flow matching in latent space
     year: '2023'
   KxSdvGoAAAAJ:blknAaTinKkC:
-    citations: 75
+    citations: 85
     title: Simple guidance mechanisms for discrete diffusion models
     year: '2024'
   KxSdvGoAAAAJ:hFOr9nPyWt4C:
-    citations: 210
+    citations: 211
     title: Wavelet diffusion models are fast and scalable image generators
     year: '2023'
   KxSdvGoAAAAJ:hMod-77fHWUC:
@@ -42,6 +42,6 @@ papers:
     title: Self-corrected flow distillation for consistent one-step and few-step image generation
     year: '2025'
   KxSdvGoAAAAJ:r0BpntZqJG4C:
-    citations: 208
+    citations: 210
     title: 'Anti-dreambooth: Protecting users from personalized text-to-image synthesis'
     year: '2023'
