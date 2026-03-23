@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-09'
+  last_updated: '2026-03-23'
 papers:
   KxSdvGoAAAAJ:-f6ydRqryjwC:
     citations: 7
@@ -14,7 +14,7 @@ papers:
     title: 'HyperCT: Low-Rank Hypernet for Unified Chest CT Analysis'
     year: '2026'
   KxSdvGoAAAAJ:JV2RwH3_ST0C:
-    citations: 20
+    citations: 21
     title: 'DiMSUM: Diffusion Mamba--A Scalable and Unified Spatial-Frequency Method for Image Generation'
     year: '2024'
   KxSdvGoAAAAJ:O3NaXMp0MMsC:
@@ -26,15 +26,15 @@ papers:
     title: Simple and controllable uniform discrete diffusion language models
     year: '2025'
   KxSdvGoAAAAJ:bEWYMUwI8FkC:
-    citations: 143
+    citations: 151
     title: Flow matching in latent space
     year: '2023'
   KxSdvGoAAAAJ:blknAaTinKkC:
     citations: 95
     title: Simple guidance mechanisms for discrete diffusion models
-    year: '2024'
+    year: '2025'
   KxSdvGoAAAAJ:hFOr9nPyWt4C:
-    citations: 213
+    citations: 220
     title: Wavelet diffusion models are fast and scalable image generators
     year: '2023'
   KxSdvGoAAAAJ:hMod-77fHWUC:
@@ -42,6 +42,6 @@ papers:
     title: Self-corrected flow distillation for consistent one-step and few-step image generation
     year: '2025'
   KxSdvGoAAAAJ:r0BpntZqJG4C:
-    citations: 211
+    citations: 217
     title: 'Anti-dreambooth: Protecting users from personalized text-to-image synthesis'
     year: '2023'
