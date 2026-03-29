@@ -9,3 +9,7 @@ github_repos:
   - VinAIResearch/LFM
   - VinAIResearch/DiMSUM
   - kuleshov-group/discrete-diffusion-guidance
+  - kuleshov-group/e2d2
+  - hao-pt/SCFlow
+  - lfb-1/HyperCT
+
