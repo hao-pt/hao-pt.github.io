@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-04-22'
+  last_updated: '2026-05-04'
 papers:
   KxSdvGoAAAAJ:-f6ydRqryjwC:
     citations: 7
     title: 'VQASTO: Visual question answering system for action surveillance based on task ontology'
     year: '2020'
   KxSdvGoAAAAJ:BqipwSGYUEgC:
-    citations: 5
+    citations: 6
     title: Encoder-decoder diffusion language models for efficient training and inference
     year: '2025'
   KxSdvGoAAAAJ:GnPB-g6toBAC:
@@ -14,9 +14,13 @@ papers:
     title: 'HyperCT: Low-Rank Hypernet for Unified Chest CT Analysis'
     year: '2026'
   KxSdvGoAAAAJ:JV2RwH3_ST0C:
-    citations: 23
+    citations: 24
     title: 'DiMSUM: Diffusion Mamba--A Scalable and Unified Spatial-Frequency Method for Image Generation'
     year: '2024'
+  KxSdvGoAAAAJ:NaGl4SEjCO4C:
+    citations: 0
+    title: 'Prox-E: Fine-Grained 3D Shape Editing via Primitive-Based Abstractions'
+    year: '2026'
   KxSdvGoAAAAJ:O3NaXMp0MMsC:
     citations: 0
     title: 'Raster2Seq: Polygon Sequence Generation for Floorplan Reconstruction'
@@ -26,15 +30,15 @@ papers:
     title: Simple and controllable uniform discrete diffusion language models
     year: '2025'
   KxSdvGoAAAAJ:bEWYMUwI8FkC:
-    citations: 156
+    citations: 157
     title: Flow matching in latent space
     year: '2023'
   KxSdvGoAAAAJ:blknAaTinKkC:
-    citations: 100
+    citations: 102
     title: Simple guidance mechanisms for discrete diffusion models
     year: '2025'
   KxSdvGoAAAAJ:hFOr9nPyWt4C:
-    citations: 227
+    citations: 231
     title: Wavelet diffusion models are fast and scalable image generators
     year: '2023'
   KxSdvGoAAAAJ:hMod-77fHWUC:
@@ -42,6 +46,6 @@ papers:
     title: Self-corrected flow distillation for consistent one-step and few-step image generation
     year: '2025'
   KxSdvGoAAAAJ:r0BpntZqJG4C:
-    citations: 227
+    citations: 233
     title: 'Anti-dreambooth: Protecting users from personalized text-to-image synthesis'
     year: '2023'
