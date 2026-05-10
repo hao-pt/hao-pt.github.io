@@ -1,8 +1,8 @@
 "CVPR":
-  url: https://cvpr2023.thecvf.com/
+  url: https://cvpr.thecvf.com/
 
 "ICCV":
-  url: https://journals.aps.org/
+  url: https://iccv.thecvf.com/
 
 "arXiv":
   url: https://arxiv.org/
@@ -17,5 +17,8 @@
   url: https://aaai.org/
   
 "MIDL":
-  url: https://2026.midl.io/
+  url: https://www.midl.io/
+
+"SIGGRAPH":
+  url: https://www.siggraph.org/
 

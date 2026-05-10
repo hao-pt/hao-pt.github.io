@@ -52,7 +52,7 @@ layout: default
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -60,17 +60,48 @@ layout: default
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest Posts</a>
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
 
-    <!-- Selected papers -->
+    <!-- Publications with tabs -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
+      <h2>Publications</h2>
+      <p class="mt-0 mb-2" style="font-size: 0.85rem; color: var(--global-text-color-light);">* denotes equal contribution</p>
+      <div class="d-flex align-items-center justify-content-between mb-3">
+        <ul class="nav nav-tabs mb-0" id="pub-tabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="selected-tab" data-toggle="tab" href="#selected-pubs" role="tab" aria-controls="selected-pubs" aria-selected="true">Selected</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="all-tab" data-toggle="tab" href="#all-pubs" role="tab" aria-controls="all-pubs" aria-selected="false">All</a>
+          </li>
+        </ul>
+        {% if site.bib_search %}
+          <input
+            type="text"
+            id="bibsearch"
+            spellcheck="false"
+            autocomplete="off"
+            class="search bibsearch-form-input"
+            placeholder="Search by title, author, ..."
+          >
+          <script src="{{ '/assets/js/bibsearch.js' | relative_url | bust_file_cache }}" type="module"></script>
+        {% endif %}
+      </div>
+      <div class="tab-content" id="pub-tabs-content">
+        <div class="tab-pane fade show active" id="selected-pubs" role="tabpanel" aria-labelledby="selected-tab">
+          <div class="publications">
+            {% bibliography --group_by none --query @*[selected=true]* %}
+          </div>
+        </div>
+        <div class="tab-pane fade" id="all-pubs" role="tabpanel" aria-labelledby="all-tab">
+          <div class="publications">
+            {% bibliography --group_by none %}
+          </div>
+        </div>
+      </div>
     {% endif %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
