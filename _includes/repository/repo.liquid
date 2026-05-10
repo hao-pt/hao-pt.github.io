@@ -1,5 +1,4 @@
 {% assign repo_url = include.repository | split: '/' %}
-<a href="https://github.com/{{ include.repository }}">
 {% if site.data.repositories.github_users contains repo_url.first %}
   {% assign show_owner = false %}
 {% else %}
