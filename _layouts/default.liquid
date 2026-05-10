@@ -57,42 +57,9 @@
 
 
     <center class="mb-5">
-      <script src="https://kit.fontawesome.com/0c7c27ff53.js" crossorigin="anonymous"></script>
-      
-      <script>
-        function toggle_visibility(id) {
-          var e = document.getElementById(id);
-          // Changed to toggle height and opacity instead of display
-          if (e.style.height === '0px' || e.style.height === '') {
-            e.style.height = 'auto';
-            e.style.opacity = '1';
-          } else {
-            e.style.height = '0px';
-            e.style.opacity = '0';
-          }
-        }
-        function toggle_chevron(id) {
-          var e = document.getElementById(id);
-          if (e.classList.contains('fa-chevron-circle-right')) {
-            e.classList.remove('fa-chevron-circle-right');
-            e.classList.add('fa-chevron-circle-down');
-          } else {
-            e.classList.remove('fa-chevron-circle-down');
-            e.classList.add('fa-chevron-circle-right');
-          }
-        }
-      </script>
-
-      <a href="javascript:void(0);" onclick="toggle_visibility('notice');toggle_chevron('toggle');" style="text-align:center;font-size:80%;color:#989898">
-        <i id="toggle" class="fa-chevron-circle-right fas"></i>
+      <a href="https://clustrmaps.com/site/1btmu" target="_blank" style="text-align:center;font-size:80%;color:#989898">
         hao-pt.github.io's clustrmaps 🌎
       </a>
-      
-      <div id="notice" style="height:0px; overflow:hidden; opacity:0; transition: opacity 0.4s; color:#dedede; font-size:.5em;">
-          <p style="margin-top:10px;">
-            <script type='text/javascript' id='clustrmaps' src='https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=n&d=SMzmCrtLul4PeBgV-hxmBaV2BV1GQQyxAWrtBobFAe8'></script>
-          </p>
-      </div>
     </center>
 
     <!-- Footer -->

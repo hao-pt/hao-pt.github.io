@@ -51,7 +51,7 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
+      <h2 id="news">
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
@@ -67,7 +67,7 @@ layout: default
 
     <!-- Publications with tabs -->
     {% if page.selected_papers %}
-      <h2>Publications</h2>
+      <h2 id="publications">Publications</h2>
       <p class="mt-0 mb-2" style="font-size: 0.85rem; color: var(--global-text-color-light);">* denotes equal contribution</p>
       <div class="d-flex align-items-center justify-content-between mb-3">
         <ul class="nav nav-tabs mb-0" id="pub-tabs" role="tablist">
