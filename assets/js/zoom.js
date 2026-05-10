@@ -111,9 +111,11 @@ document.addEventListener("DOMContentLoaded", function () {
   $(document).on("shown.bs.tab", function (e) {
     var paneSelector = $(e.target).attr("href");
     if (paneSelector) {
-      $(paneSelector).find("video.preview").each(function () {
-        this.play().catch(function () {});
-      });
+      $(paneSelector)
+        .find("video.preview")
+        .each(function () {
+          this.play().catch(function () {});
+        });
       // Register any newly rendered videos with the observer.
       observePreviews();
     }
@@ -122,9 +124,11 @@ document.addEventListener("DOMContentLoaded", function () {
   $(document).on("hidden.bs.tab", function (e) {
     var paneSelector = $(e.target).attr("href");
     if (paneSelector) {
-      $(paneSelector).find("video.preview").each(function () {
-        this.pause();
-      });
+      $(paneSelector)
+        .find("video.preview")
+        .each(function () {
+          this.pause();
+        });
     }
   });
 });

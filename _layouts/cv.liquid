@@ -36,7 +36,11 @@ layout: default
       <p class="post-description">{{ page.description }}</p>
     {% endif %}
 
-    <p class="post-meta"> Last updated: {{ page.date | date: "%B %-d, %Y" }}{%- if page.author -%} • {{ page.author }}{%- endif -%}{%- if page.meta -%} • {{ page.meta }}{%- endif -%}</p>
+    <p class="post-meta">
+      Last updated: {{ page.date | date: '%B %-d, %Y' }}
+      {%- if page.author -%}• {{ page.author }}{%- endif -%}
+      {%- if page.meta -%}• {{ page.meta }}{%- endif -%}
+    </p>
   </header>
 
   <article>
@@ -386,11 +390,10 @@ layout: default
           </div>
         {% endif %}
 
-
-      {% comment %}
-      {% else %}
-        <p>No CV data found. Please configure either RenderCV (cv.yml) or JSONResume (resume.json) data.</p>
-      {% endcomment %}
+        {% comment %}
+          {% else %}
+            <p>No CV data found. Please configure either RenderCV (cv.yml) or JSONResume (resume.json) data.</p>
+        {% endcomment %}
       {% endif %}
     </div>
   </article>

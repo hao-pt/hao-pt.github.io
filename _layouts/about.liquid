@@ -36,7 +36,7 @@ layout: default
         {% if page.profile.address %}
           <div class="address" style="font-size: 14px;">
             <center>
-            {{ page.profile.address }}
+              {{ page.profile.address }}
             </center>
           </div>
         {% endif %}
@@ -72,7 +72,16 @@ layout: default
       <div class="d-flex align-items-center justify-content-between mb-3">
         <ul class="nav nav-tabs mb-0" id="pub-tabs" role="tablist">
           <li class="nav-item">
-            <a class="nav-link active" id="selected-tab" data-toggle="tab" href="#selected-pubs" role="tab" aria-controls="selected-pubs" aria-selected="true">Selected</a>
+            <a
+              class="nav-link active"
+              id="selected-tab"
+              data-toggle="tab"
+              href="#selected-pubs"
+              role="tab"
+              aria-controls="selected-pubs"
+              aria-selected="true"
+              >Selected</a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link" id="all-tab" data-toggle="tab" href="#all-pubs" role="tab" aria-controls="all-pubs" aria-selected="false">All</a>

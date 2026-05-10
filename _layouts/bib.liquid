@@ -34,7 +34,13 @@
             </video>
           {% elsif preview_ext == 'pdf' %}
             <div class="preview z-depth-1 rounded" data-pdf-zoomable="{{ entry.preview }}" style="cursor:zoom-in;overflow:hidden;height:200px;">
-              <embed src="{{ entry.preview }}#toolbar=0&navpanes=0&scrollbar=0&view=FitH" type="application/pdf" width="100%" height="100%" style="pointer-events:none;">
+              <embed
+                src="{{ entry.preview }}#toolbar=0&navpanes=0&scrollbar=0&view=FitH"
+                type="application/pdf"
+                width="100%"
+                height="100%"
+                style="pointer-events:none;"
+              >
             </div>
           {% else %}
             <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
@@ -49,7 +55,13 @@
           {% elsif preview_ext == 'pdf' %}
             {% assign pdf_src = entry_path | relative_url %}
             <div class="preview z-depth-1 rounded" data-pdf-zoomable="{{ pdf_src }}" style="cursor:zoom-in;overflow:hidden;height:200px;">
-              <embed src="{{ pdf_src }}#toolbar=0&navpanes=0&scrollbar=0&view=FitH" type="application/pdf" width="100%" height="100%" style="pointer-events:none;">
+              <embed
+                src="{{ pdf_src }}#toolbar=0&navpanes=0&scrollbar=0&view=FitH"
+                type="application/pdf"
+                width="100%"
+                height="100%"
+                style="pointer-events:none;"
+              >
             </div>
           {% else %}
             {%
