@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-06-12'
+  last_updated: '2026-07-01'
 papers:
   KxSdvGoAAAAJ:-f6ydRqryjwC:
     citations: 7
     title: 'VQASTO: Visual question answering system for action surveillance based on task ontology'
     year: '2020'
   KxSdvGoAAAAJ:BqipwSGYUEgC:
-    citations: 8
+    citations: 12
     title: Encoder-decoder diffusion language models for efficient training and inference
     year: '2026'
   KxSdvGoAAAAJ:GnPB-g6toBAC:
@@ -30,22 +30,22 @@ papers:
     title: Simple and controllable uniform discrete diffusion language models
     year: '2025'
   KxSdvGoAAAAJ:bEWYMUwI8FkC:
-    citations: 170
+    citations: 176
     title: Flow matching in latent space
     year: '2023'
   KxSdvGoAAAAJ:blknAaTinKkC:
-    citations: 118
+    citations: 125
     title: Simple guidance mechanisms for discrete diffusion models
     year: '2025'
   KxSdvGoAAAAJ:hFOr9nPyWt4C:
-    citations: 244
+    citations: 249
     title: Wavelet diffusion models are fast and scalable image generators
     year: '2023'
   KxSdvGoAAAAJ:hMod-77fHWUC:
-    citations: 15
+    citations: 17
     title: Self-corrected flow distillation for consistent one-step and few-step image generation
     year: '2025'
   KxSdvGoAAAAJ:r0BpntZqJG4C:
-    citations: 250
+    citations: 253
     title: 'Anti-dreambooth: Protecting users from personalized text-to-image synthesis'
     year: '2023'
