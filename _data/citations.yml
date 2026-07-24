@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-22'
+  last_updated: '2026-07-24'
 papers:
   KxSdvGoAAAAJ:-f6ydRqryjwC:
     citations: 7
@@ -14,7 +14,7 @@ papers:
     title: 'HyperCT: Low-Rank Hypernet for Unified Chest CT Analysis'
     year: '2026'
   KxSdvGoAAAAJ:JV2RwH3_ST0C:
-    citations: 30
+    citations: 31
     title: 'DiMSUM: Diffusion Mamba--A Scalable and Unified Spatial-Frequency Method for Image Generation'
     year: '2024'
   KxSdvGoAAAAJ:NaGl4SEjCO4C:
